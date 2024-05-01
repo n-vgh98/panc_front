@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  next:
+    container_name: front_next
+    restart: always
+    ports:
+      - 3030:3030
+    build:
+      context: .

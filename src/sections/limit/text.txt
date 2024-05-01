@@ -1,0 +1,59 @@
+import React from 'react'
+
+const Limit = () => {
+    return (
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div className='bg-gray-100 p-4 rounded-lg'>
+                                    <div className="flex justify-between items-center mb-4">
+                                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Open Orders</button>
+                                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Expired Order</button>
+                                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Order History</button>
+                                    </div>
+                                </div>
+                                <div className="rounded-lg overflow-hidden">
+                                    <table className="w-full">
+                                        <thead>
+                                            <tr>
+                                                <th className="bg-gray-200 text-gray-700 py-2 px-4">From</th>
+                                                <th className="bg-gray-200 text-gray-700 py-2 px-4">To</th>
+                                                <th className="bg-gray-200 text-gray-700 py-2 px-4">Limit Price</th>
+                                                <th className="bg-gray-200 text-gray-700 py-2 px-4">Status</th>
+                                                <th className="bg-gray-200 text-gray-700 py-2 px-4"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div className="flex justify-end mt-4">
+                                    <div className="bg-gray-200 p-2 rounded-full">
+
+                                        <svg viewBox="0 0 72 72" width="64" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M72 36C72 55.8823 55.8823 72 36 72C16.1177 72 0 55.8823 0 36C0 16.1177 16.1177 0 36 0C55.8823 0 72 16.1177 72 36Z" fill="#e9eaeb"></path>
+                                            <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="66" height="66">
+                                                <path d="M68.25 36C68.25 53.8112 53.8112 68.25 36 68.25C18.1888 68.25 3.75 53.8112 3.75 36C3.75 18.1888 18.1888 3.75 36 3.75C53.8112 3.75 68.25 18.1888 68.25 36Z" fill="#C4C4C4"></path>
+                                            </mask>
+                                            <g mask="url(#mask0)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9927 23.2654C26.1289 23.1362 30.0824 27.7278 29.2039 32.7879L27.6838 41.5445C30.2298 41.0514 32.9304 40.7875 35.7229 40.7875C37.7063 40.7875 39.6424 40.9206 41.5089 41.1741L49.2862 29.5726C51.7713 25.8657 56.7909 24.8751 60.4978 27.3602C64.7827 30.2326 65.3155 36.33 61.5938 39.9021L55.2585 45.9828C59.9045 49.0009 63.1305 53.2977 63.1306 58.4066V62.322C63.1306 67.644 59.6097 72.0998 54.6877 75.1077C49.7272 78.1391 43.0165 79.9412 35.7229 79.9412C28.4292 79.9412 21.7186 78.1391 16.7581 75.1077C11.836 72.0998 8.31519 67.644 8.31519 62.322V58.4067C8.31522 54.4286 10.2963 50.9169 13.3384 48.1585L13.0101 31.6154C12.9208 27.115 16.4929 23.3785 20.9927 23.2654ZM15.617 49.1514C15.6003 49.0112 15.5903 48.8688 15.5874 48.7246L15.2471 31.571C15.1822 28.3014 17.7798 25.5842 21.049 25.502C24.7712 25.4084 27.637 28.733 26.9996 32.4052L24.8971 44.5163C25.6681 44.2915 26.4607 44.0899 27.2726 43.9131C29.9138 43.338 32.7585 43.0248 35.7229 43.0248C37.4505 43.0248 39.1583 43.1636 40.8303 43.4293L36.4724 58.4054V62.322C36.4724 64.2505 38.0315 65.8214 39.9522 65.8214C41.8728 65.8214 43.4319 64.2505 43.4319 62.322V58.4054L39.074 43.4293C40.7595 43.1662 42.4411 43.0296 44.1145 43.0296C46.9231 43.0296 49.7309 43.3417 52.3603 43.9283C54.5277 44.4038 56.7573 45.1927 58.8179 46.2309L56.6263 51.5174C54.6995 49.7284 51.5587 49.1433 48.4726 49.7482C45.3865 50.353 42.6054 52.1199 40.4544 54.8421C38.1892 52.5404 35.0161 51.2635 31.7229 51.2635C27.5414 51.2635 23.4964 53.3728 21.2571 56.9182C20.3924 58.8283 20.396 61.1978 21.2553 63.1224L15.617 49.1514Z" fill="#000000"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    )
+}
+
+export default Limit
+
