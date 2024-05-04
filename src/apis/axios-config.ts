@@ -3,7 +3,8 @@ import { toast } from "react-toastify";
 import { useRealAuth } from "@/store/useAuthStore";
 
 const axiosConfig = axios.create({
-  baseURL: "http://45.94.213.240/",
+  // baseURL: "http://45.94.213.240/",
+baseURL:`${location.origin}`
 });
 
 axiosConfig.interceptors.request.use((config) => {
